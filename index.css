@@ -574,3 +574,150 @@ footer {
     color: white;
     font-size: 1.8rem;
 }
+
+/* Tablet View */
+@media (max-width: 1024px) {
+    .musaispage {
+        height: 150rem; /* Adjust height */
+    }
+    .logoimg {
+        width: 4rem;
+        height: 4rem; /* Smaller logo for tablets */
+    }
+    .logotext {
+        font-size: 1.4rem; /* Reduced font size */
+    }
+    .hero {
+        font-size: 2rem; /* Smaller font size */
+    }
+    .hero h6 {
+        font-size: 1.2rem;
+    }
+    .hero p {
+        font-size: 0.9rem;
+    }
+    .allproject-img {
+        height: 40vh; /* Adjust project image height */
+    }
+    .whyclients {
+        height: 28rem; /* Adjust height */
+        width: 100%; /* Adjust width */
+    }
+    .whyheading h1 {
+        font-size: 3.5rem; /* Reduce heading font size */
+    }
+    .why-contents {
+        flex-direction: column; /* Stack contents vertically */
+        align-items: center;
+        margin-top: 2rem; /* Adjust spacing */
+    }
+    .why-content {
+        width: 80%; /* Adjust content width */
+        margin: 1rem;
+    }
+    .ui-ux {
+        height: 30rem; /* Adjust height */
+    }
+    .ui-ux img {
+        width: 90%; /* Adjust image width */
+    }
+    .skills {
+        grid-template-columns: repeat(2, 1fr); /* Two columns on tablet */
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    .testimonials {
+        height: auto; /* Auto height */
+    }
+    .plan {
+        height: auto; /* Auto height */
+        line-height: 1.2;
+    }
+    .plan-contents {
+        flex-direction: column; /* Stack plans vertically */
+        height: auto; /* Adjust height */
+    }
+    footer {
+        flex-direction: column; /* Stack footer items */
+        height: auto; /* Adjust height */
+    }
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+    .musaispage {
+        height: 100rem; /* Further reduce height */
+    }
+    .logoimg {
+        width: 3rem;
+        height: 3rem; /* Smaller logo for mobile */
+    }
+    .logotext {
+        font-size: 1.2rem; /* Smaller font size */
+    }
+    .hero {
+        font-size: 1.8rem; /* Smaller font size */
+        text-align: center;
+    }
+    .hero h6 {
+        font-size: 1rem;
+    }
+    .hero p {
+        font-size: 0.8rem;
+    }
+    .allproject-img {
+        height: 30vh; /* Reduce image height */
+        flex-direction: column; /* Stack images vertically */
+    }
+    .whyclients {
+        height: 70rem; /* Further reduce height */
+        width: 100%; /* Adjust width */
+        align-items: center;
+        justify-content: center;
+    }
+    .whyheading h1 {
+        font-size: 3rem; /* Reduce heading font size */
+        margin-left: 6rem;
+        padding-top: 2rem;
+    }
+    .why-contents {
+        flex-direction: column; /* Stack contents vertically */
+        align-items: center;
+        margin-top: 1rem; /* Adjust spacing */
+    }
+    .why-content {
+        width: 100%; /* Full width */
+        margin: 0.5rem;
+    }
+    .ui-ux {
+        height: 25rem; /* Further reduce height */
+    }
+    .ui-ux img {
+        width: 100%; /* Full width for images */
+    }
+    .skills {
+        grid-template-columns: 1fr; /* One column for mobile */
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 70rem;
+    }
+    .testimonials {
+        height: auto; /* Auto height */
+    }
+    .plan {
+        height: auto; /* Auto height */
+        line-height: 1;
+    }
+    .plan-contents {
+        flex-direction: column; /* Stack plans vertically */
+        height: auto; /* Adjust height */
+    }
+    .plan1, .plan2, .plan3 {
+        width: 90%; /* Full width for plans */
+        margin: 1rem 0; /* Add spacing between plans */
+    }
+    footer {
+        flex-direction: column; /* Stack footer items */
+        height: auto; /* Adjust height */
+    }
+}
